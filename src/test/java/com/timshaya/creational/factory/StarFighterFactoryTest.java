@@ -27,7 +27,6 @@ class StarFighterFactoryTest {
         assertNull(fighter);
     }
 
-
     @Test
     void testCreateStarFighterWithUnknownFleetType() {
         Fleet unknownFleet = new Fleet() {};
